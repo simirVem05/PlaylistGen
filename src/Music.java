@@ -8,6 +8,7 @@ public class Music{
         Scanner scan;
         scan = new Scanner(System.in);
         int test = 0;
+        System.out.println(test);
     
         
         System.out.println("Hi! Welcome to Playlist Generator 2024! What kind of playlist do you want to generate today?"
