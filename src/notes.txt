@@ -1,0 +1,24 @@
+party playlist:
+searches tracks for factors like danceability, enery, and valence
+the goal is to find high energy songs that are positive and easy to dance to
+looks for songs that:
+-have high energy (>= .7)
+-are easy to dance to(high danceability score) (>= .7)
+
+study playlist:
+searches tracks for factors like energy, speechiness, and valence
+looks for songs that:
+-have low-mid energy (< 0.5)
+-are not strongly positive or negative(mid valence score) (0.4 - 0.7)
+-have low-mid speechiness(not too many words) (less than 0.15)
+
+gym playlist:
+searches tracks for just energy because the type of gym playlist i want to generate here should be high in energy
+but i may want to search tracks for a low valence score, because a high energy negative song may make sense
+-high energy (> .8)
+-maybe low valence ( < .4)
+
+crying playlist:
+searches tracks for valence
+looks for songs that:
+-are sad or negative(low valence score)
