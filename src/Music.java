@@ -10,9 +10,7 @@ public class Music{
         int test = 0;
         System.out.println(test);
         //bunch of bs lines of code to see if the push even works
-        for (int i = 0; i < 5; i++){
-            System.out.print("Make a sandwhich");
-        }
+        
     
         
         System.out.println("Hi! Welcome to Playlist Generator 2024! What kind of playlist do you want to generate today?"
